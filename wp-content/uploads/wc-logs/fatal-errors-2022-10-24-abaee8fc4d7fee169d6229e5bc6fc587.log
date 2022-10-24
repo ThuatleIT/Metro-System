@@ -1,0 +1,76 @@
+2022-10-24T03:58:50+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class WP_Menu_Image does not have a method "mm_fs_uninstall_cleanup" in D:\TU HOC\xampp\htdocs\Metro System\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 D:\TU HOC\xampp\htdocs\Metro System\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#1 D:\TU HOC\xampp\htdocs\Metro System\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#2 D:\TU HOC\xampp\htdocs\Metro System\wp-content\plugins\ajax-search-for-woocommerce\fs\lib\includes\class-freemius.php(18894): do_action('fs_after_uninst...')
+#3 D:\TU HOC\xampp\htdocs\Metro System\wp-content\plugins\ajax-search-for-woocommerce\fs\lib\includes\class-freemius.php(9931): Freemius->do_action('after_uninstall')
+#4 D:\TU HOC\xampp\htdocs\Metro System\wp-includes\class-wp-hook.php(307): Freemius::_uninstall_plugin_hook('')
+#5 D:\TU HOC\xampp\htdocs\Metro System\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#6 D:\TU HOC\xampp\htdocs\Metro System\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#7 D:\TU HOC\xampp\htdocs\Metro System\wp-admin\includes\plugin.php(1265): do_action('uninstall_menu-...')
+#8 D:\TU HOC\xampp\htdocs\Metro System\wp-admin\includes\plugin.php(958): uninstall_plugin('menu-image/menu...')
+#9 D:\TU HOC\xampp\htdocs\Metro System\wp-admin\includes\ajax-actions.php(4668): delete_plugins(Array)
+#10 D:\TU HOC\xampp\htdocs\Metro System\wp-includes\class-wp-hook.php(307): wp_ajax_delete_plugin('')
+#11 D:\TU HOC\xampp\htdocs\Metro System\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#12 D:\TU HOC\xampp\htdocs\Metro System\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#13 D:\TU HOC\xampp\htdocs\Metro System\wp-admin\admin-ajax.php(187): do_action('wp_ajax_delete-...')
+#14 {main}
+  thrown in D:\TU HOC\xampp\htdocs\Metro System\wp-includes\class-wp-hook.php on line 307
+
+2022-10-24T04:06:34+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($callback) must be a valid callback, class WP_Menu_Image does not have a method "mm_fs_uninstall_cleanup" in D:\TU HOC\xampp\htdocs\Metro System\wp-includes\class-wp-hook.php:307
+Stack trace:
+#0 D:\TU HOC\xampp\htdocs\Metro System\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#1 D:\TU HOC\xampp\htdocs\Metro System\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#2 D:\TU HOC\xampp\htdocs\Metro System\wp-content\plugins\ajax-search-for-woocommerce\fs\lib\includes\class-freemius.php(18894): do_action('fs_after_uninst...')
+#3 D:\TU HOC\xampp\htdocs\Metro System\wp-content\plugins\ajax-search-for-woocommerce\fs\lib\includes\class-freemius.php(9931): Freemius->do_action('after_uninstall')
+#4 D:\TU HOC\xampp\htdocs\Metro System\wp-includes\class-wp-hook.php(307): Freemius::_uninstall_plugin_hook('')
+#5 D:\TU HOC\xampp\htdocs\Metro System\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#6 D:\TU HOC\xampp\htdocs\Metro System\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#7 D:\TU HOC\xampp\htdocs\Metro System\wp-admin\includes\plugin.php(1265): do_action('uninstall_menu-...')
+#8 D:\TU HOC\xampp\htdocs\Metro System\wp-admin\includes\plugin.php(958): uninstall_plugin('menu-image/menu...')
+#9 D:\TU HOC\xampp\htdocs\Metro System\wp-admin\includes\ajax-actions.php(4668): delete_plugins(Array)
+#10 D:\TU HOC\xampp\htdocs\Metro System\wp-includes\class-wp-hook.php(307): wp_ajax_delete_plugin('')
+#11 D:\TU HOC\xampp\htdocs\Metro System\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#12 D:\TU HOC\xampp\htdocs\Metro System\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#13 D:\TU HOC\xampp\htdocs\Metro System\wp-admin\admin-ajax.php(187): do_action('wp_ajax_delete-...')
+#14 {main}
+  thrown in D:\TU HOC\xampp\htdocs\Metro System\wp-includes\class-wp-hook.php on line 307
+
+2022-10-24T05:59:37+00:00 CRITICAL Uncaught ValueError: Unknown format specifier "S" in D:\TU HOC\xampp\htdocs\Metro System\wp-content\plugins\advanced-ads\classes\plugin.php:226
+Stack trace:
+#0 D:\TU HOC\xampp\htdocs\Metro System\wp-content\plugins\advanced-ads\classes\plugin.php(226): sprintf('<!-- localhost/...', ' 1.37.0', ' \xE2\x80\x93 https://wp...')
+#1 D:\TU HOC\xampp\htdocs\Metro System\wp-includes\class-wp-hook.php(307): Advanced_Ads_Plugin->print_head_scripts('')
+#2 D:\TU HOC\xampp\htdocs\Metro System\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 D:\TU HOC\xampp\htdocs\Metro System\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 D:\TU HOC\xampp\htdocs\Metro System\wp-includes\general-template.php(3042): do_action('wp_head')
+#5 D:\TU HOC\xampp\htdocs\Metro System\wp-content\themes\metro-system\metro-system\header.php(20): wp_head()
+#6 D:\TU HOC\xampp\htdocs\Metro System\wp-includes\template.php(770): require_once('D:\\TU HOC\\xampp...')
+#7 D:\TU HOC\xampp\htdocs\Metro System\wp-includes\template.php(716): load_template('D:\\TU HOC\\xampp...', true, Array)
+#8 D:\TU HOC\xampp\htdocs\Metro System\wp-includes\general-template.php(48): locate_template(Array, true, true, Array)
+#9 D:\TU HOC\xampp\htdocs\Metro System\wp-content\themes\metro-system\metro-system\index.php(15): get_header()
+#10 D:\TU HOC\xampp\htdocs\Metro System\wp-includes\template-loader.php(106): include('D:\\TU HOC\\xampp...')
+#11 D:\TU HOC\xampp\htdocs\Metro System\wp-blog-header.php(19): require_once('D:\\TU HOC\\xampp...')
+#12 D:\TU HOC\xampp\htdocs\Metro System\index.php(17): require('D:\\TU HOC\\xampp...')
+#13 {main}
+  thrown in D:\TU HOC\xampp\htdocs\Metro System\wp-content\plugins\advanced-ads\classes\plugin.php on line 226
+
+2022-10-24T06:01:24+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in D:\TU HOC\xampp\htdocs\Metro System\wp-admin\includes\class-custom-image-header.php:1276
+Stack trace:
+#0 D:\TU HOC\xampp\htdocs\Metro System\wp-admin\includes\class-custom-image-header.php(1382): Custom_Image_Header->get_header_dimensions(Array)
+#1 D:\TU HOC\xampp\htdocs\Metro System\wp-includes\class-wp-hook.php(307): Custom_Image_Header->ajax_header_crop('')
+#2 D:\TU HOC\xampp\htdocs\Metro System\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 D:\TU HOC\xampp\htdocs\Metro System\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 D:\TU HOC\xampp\htdocs\Metro System\wp-admin\admin-ajax.php(187): do_action('wp_ajax_custom-...')
+#5 {main}
+  thrown in D:\TU HOC\xampp\htdocs\Metro System\wp-admin\includes\class-custom-image-header.php on line 1276
+
+2022-10-24T06:03:09+00:00 CRITICAL Uncaught DivisionByZeroError: Division by zero in D:\TU HOC\xampp\htdocs\Metro System\wp-admin\includes\class-custom-image-header.php:1276
+Stack trace:
+#0 D:\TU HOC\xampp\htdocs\Metro System\wp-admin\includes\class-custom-image-header.php(1382): Custom_Image_Header->get_header_dimensions(Array)
+#1 D:\TU HOC\xampp\htdocs\Metro System\wp-includes\class-wp-hook.php(307): Custom_Image_Header->ajax_header_crop('')
+#2 D:\TU HOC\xampp\htdocs\Metro System\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#3 D:\TU HOC\xampp\htdocs\Metro System\wp-includes\plugin.php(476): WP_Hook->do_action(Array)
+#4 D:\TU HOC\xampp\htdocs\Metro System\wp-admin\admin-ajax.php(187): do_action('wp_ajax_custom-...')
+#5 {main}
+  thrown in D:\TU HOC\xampp\htdocs\Metro System\wp-admin\includes\class-custom-image-header.php on line 1276
+
