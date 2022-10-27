@@ -177,9 +177,9 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 }
 /*Adding class to menu item - li tag */
 function add_menu_list_item_class($classes, $item, $args) {
-    if($args->list_item_class) {
-        $classes[] = $args->list_item_class;
-    }
+//    if($args->list_item_class) {
+//    }
+//        $classes[] = $args->list_item_class;
     return $classes;
 }
 add_filter('nav_menu_css_class', 'add_menu_list_item_class', 1, 3);
